@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myDIV {
+    width: 300px;
+    height: 300px;
+    color: blue;
+    overflow: auto;
+    background-color: #aaaaaa;
+}
+</style>
+</head>
+<body>
+
+<p>Click the radio buttons to change the background color:</p>
+
+<form name="myForm">
+  <input type="radio" name="myAtt" value="red" onclick="myFunction()" >red 
+  <input type="radio" name="myAtt" value="green" onclick="myFunction()"> green
+</form>
+
+<div id="myDIV">
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+  <h1>Hello</h1>
+</div>
+
+<script>
+function myFunction() {
+    if (document.forms["myForm"]["myAtt"][0].checked) {
+     
+      document.getElementById("myDIV").style.backgroundColor ="red";
+    } else {
+       document.getElementById("myDIV").style.backgroundColor ="green";
+    }
+}
+</script>
+
+</body>
+</html>
