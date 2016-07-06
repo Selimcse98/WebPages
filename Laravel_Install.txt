@@ -547,3 +547,16 @@ Generating autoload files
 Generating optimized class loader
 > php artisan key:generate
 Application key [base64:B3EnBtrishhtxtypFO2LA43N7DobZoWnSWXqyM+9l5Y=] set successfully.
+
+
+========== mysql Database Connections =================================
+/Users/mohammadselimmiah/Documents/WebPages/learningLaravel/config/database.php
+
+============  Cloning from GitHub ======================================
+
+git clone https://github.com/laravel/quickstart-basic.git quickstart-basic
+cd quickstart-basic/
+composer install
+php artisan migrate
+php artisan serve
+  
